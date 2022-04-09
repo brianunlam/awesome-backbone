@@ -1,0 +1,12 @@
+{
+  "name": "awesome-backbone",
+  "version": "0.0.1",
+  "description": "Speed up development",
+  "main": "index.js",
+  "repository": "git@github.com:brianunlam/awesome-backbone.git",
+  "author": "Brian Alonso <brian.alonso.a@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
