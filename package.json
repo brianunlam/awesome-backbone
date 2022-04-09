@@ -6,7 +6,20 @@
   "repository": "git@github.com:brianunlam/awesome-backbone.git",
   "author": "Brian Alonso <brian.alonso.a@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "tsc -b packages/api-common",
+    "test": "lerna run test",
+    "clean": "rimraf packages/**/lib"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "components/*"
+  ],
   "devDependencies": {
+    "hygen": "^6.2.0",
     "lerna": "^4.0.0"
   }
 }
