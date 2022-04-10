@@ -1,3 +1,6 @@
+---
+to: <%= name %>/tsconfig.json
+---
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
@@ -6,5 +9,9 @@
   "include": [
     "./src"
   ],
-  "exclude": ["node_modules", "lib", "src/**/*.spec.ts"]
+  "exclude": ["node_modules", "lib"]
 }
+
+
+
+
