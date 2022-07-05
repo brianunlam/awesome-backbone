@@ -2,7 +2,6 @@
   "private": true,
   "name": "@awesome-backbone/dashboard",
   "version": "0.0.1",
-
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -10,6 +9,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@awesome-backbone/core.ui.my-welcome": "^0.0.2",
     "next": "latest",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

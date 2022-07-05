@@ -14,6 +14,7 @@
     "clean": "rimraf packages/**/lib"
   },
   "workspaces": [
+    "bit-components/*",
     "packages/*",
     "apps/*",
     "components/*"

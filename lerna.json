@@ -1,6 +1,6 @@
 {
   "packages": [
-    "packages/*","apps/*","components/*"
+    "packages/*","apps/*","components/*","bit-components"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
