@@ -1,4 +1,4 @@
-import { noop } from './';
+import { noop } from '.';
 
 describe('doSomething', () => {
   it('should return true', () => {

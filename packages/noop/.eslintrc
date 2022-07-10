@@ -1,0 +1,7 @@
+{
+  "ignorePatterns": ["dist/**/*", "*.js", "*.jsx"],
+  "rules": {
+    "react/jsx-props-no-spreading": "off"
+  }
+
+}

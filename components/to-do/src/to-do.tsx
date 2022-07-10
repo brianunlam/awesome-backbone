@@ -8,9 +8,9 @@ export type ToDoProps = {
 };
 
 export function ToDo({ children }: ToDoProps) {
-  return (
-    <div>
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 }
+
+ToDo.defaultProps = {
+  children: () => '',
+};

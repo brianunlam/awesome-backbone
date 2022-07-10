@@ -16,5 +16,8 @@
   "devDependencies": {
     "lerna": "5.1.8",
     "nx": "14.2.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-typescript-prettier": "^5.0.0"
   }
 }
