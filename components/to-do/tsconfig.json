@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": [
+      "es2019", "DOM", "ES6" ,"DOM.Iterable"
+    ],
+    "target": "es2015",
+    "module": "es2020",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "lib",
+    "package.json"
+  ],
+  "include": [
+    "**/*",
+    "**/*.json"
+  ]
+}
