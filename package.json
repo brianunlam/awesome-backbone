@@ -13,13 +13,8 @@
     "test": "lerna run test",
     "clean": "rimraf packages/**/lib"
   },
-  "workspaces": [
-    "packages/*",
-    "apps/*",
-    "components/*"
-  ],
   "devDependencies": {
-    "hygen": "^6.2.0",
-    "lerna": "^4.0.0"
+    "lerna": "5.1.8",
+    "nx": "14.2.0"
   }
 }

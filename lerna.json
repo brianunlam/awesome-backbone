@@ -2,7 +2,6 @@
   "packages": [
     "packages/*","apps/*","components/*"
   ],
-  "npmClient": "yarn",
-  "useWorkspaces": true,
+  "useNx": true,
   "version": "0.0.0"
 }
