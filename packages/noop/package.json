@@ -1,28 +1,20 @@
 {
   "name": "@awesome-backbone/noop",
   "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Brian Alonso <brian.alonso.a@gmail.com>",
-  "homepage": "https://github.com/brianunlam/awesome-backbone#readme",
-  "license": "ISC",
   "main": "lib/noop.js",
   "types": "lib/noop.d.ts",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brianunlam/awesome-backbone.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
+    "test": "jest --config=../../jest.config.js",
     "build": "tsc"
   },
   "bugs": {
