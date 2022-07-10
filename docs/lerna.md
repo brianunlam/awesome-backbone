@@ -21,7 +21,7 @@ _Una vez clonado el proyecto e instalado lerna, instalar las dependecias_
 _Este comando se debe correr dentro de la carpeta principal, donde se encuentra el archivo lerna.json_
 
 ```
-lerna bootstrap
+lerna bootstrap 
 ```
 
 ## Ejecutando las pruebas
