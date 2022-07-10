@@ -100,3 +100,11 @@ lerna add jsonwebtoken --scope=@awesome-backbone/signatureUtils
 ```
 lerna add @awesome-backbone/signatureUtils --scope=@awesome-backbone/awesome-backbone-web-api
 ```
+
+Para tener un modelo basico del paquete correr:
+
+```
+lerna create @awesome-backbone/component-name components
+lerna create @awesome-backbone/package-name packages
+lerna create @awesome-backbone/my-app apps apps
+```
