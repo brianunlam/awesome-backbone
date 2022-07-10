@@ -1,13 +1,10 @@
 {
   "name": "to-do",
   "version": "0.0.0",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -15,7 +12,7 @@
   },
   "scripts": {
     "test": "npx jest --config=./jest.config.js",
-    "build": "tsc"
+    "build": "tsc "
   },
   "bugs": {
     "url": "https://github.com/brianunlam/awesome-backbone/issues"
