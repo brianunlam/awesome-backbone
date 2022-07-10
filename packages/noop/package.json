@@ -1,8 +1,8 @@
 {
-  "name": "@awesome-backbone/noop",
+  "name": "noop",
   "version": "0.0.0",
-  "main": "lib/noop.js",
-  "types": "lib/noop.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib"
   },
@@ -14,10 +14,17 @@
     "url": "git+https://github.com/brianunlam/awesome-backbone.git"
   },
   "scripts": {
-    "test": "jest --config=../../jest.config.js",
+    "test": "npx jest --config=./jest.config.js",
     "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/brianunlam/awesome-backbone/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
   }
 }
