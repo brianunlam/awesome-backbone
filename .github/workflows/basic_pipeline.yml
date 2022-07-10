@@ -1,4 +1,4 @@
-name: Lint
+name: Lint and Test
 
 on:
   pull_request:
@@ -23,3 +23,4 @@ jobs:
     - run: npm install
     - run: npm run bootstrap
     - run: npm run lint
+    - run: npm run test

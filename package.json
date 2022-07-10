@@ -11,6 +11,7 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "test": "lerna run test",
+    "lint": "lerna run lint",
     "clean": "rimraf packages/**/lib"
   },
   "devDependencies": {
