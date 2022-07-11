@@ -23,6 +23,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hugovng/components": "^0.4.0",
     "components": "*",
     "next": "12.2.2",
     "react": "18.2.0",
