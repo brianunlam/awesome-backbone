@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.4.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -36,7 +36,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "components",
+  "name": "@hugovng/components",
   "author": "Brian Alonso",
   "module": "dist/components.esm.js",
   "size-limit": [
@@ -76,5 +76,10 @@
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "@storybook/addon-docs": "^6.5.9"
+  },
+  "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
+  "directories": {
+    "example": "example",
+    "test": "test"
   }
 }
