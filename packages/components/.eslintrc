@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "plugin:storybook/recommended"
+  ],
+  "ignorePatterns": ["dist/**/*", "*.js", "*.jsx"],
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-relative-packages": "off"
+  }
+
+}
