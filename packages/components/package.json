@@ -76,6 +76,8 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@storybook/addon-docs": "^6.5.9"
+    "@headlessui/react": "^1.6.6",
+    "@storybook/addon-docs": "^6.5.9",
+    "eslint": "^8.19.0"
   }
 }
