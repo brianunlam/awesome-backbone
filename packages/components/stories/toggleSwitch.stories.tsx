@@ -20,7 +20,9 @@ const meta: Meta = {
 
 export default meta;
 
-const Template: Story<ToggleSwitchProps> = (args) => <ToggleSwitch {...args} />;
+const Template: Story<ToggleSwitchProps> = function (args) {
+  return <ToggleSwitch {...args} />;
+};
 
 export const Default = Template.bind({});
 Default.args = {
