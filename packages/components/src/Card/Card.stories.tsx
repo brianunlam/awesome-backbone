@@ -1,6 +1,6 @@
-import { Card, CardProps } from './Card';
-import { Meta, Story } from '@storybook/react';
 import React from 'react';
+import { Meta, Story } from '@storybook/react';
+import { Card, CardProps } from './Card';
 
 // This tells Storybook how to list your stories and provide information
 export default {
@@ -22,13 +22,15 @@ Default.args = {
 };
 
 // Second story
-export const WithText: Story<CardProps> = (args) => (
-  <Card {...args}>
-    <div>
-      <span>Story that shows Card component with text</span>
-    </div>
-  </Card>
-);
+export const WithText: Story<CardProps> = function (args) {
+  return (
+    <Card {...args}>
+      <div>
+        <span>Story that shows Card component with text</span>
+      </div>
+    </Card>
+  );
+};
 // Define default arguments for the WithText component and inherit arguments from Default component
 WithText.args = {
   ...Default.args,
