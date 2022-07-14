@@ -1,0 +1,25 @@
+import { Canvas, Meta, Stories } from '@storybook/addon-docs';
+import { Card } from './index';
+
+<Meta title="MDX/Card" component={Card} />
+
+# usage
+
+In classes use tailwind classNames
+
+```
+ <Card classes='h-64 w-64' variant='outlined' />
+```
+
+<Canvas>
+  <Story name="Card">
+    Outlined
+    <Card classes='h-64 w-64' variant='outlined' />
+    Elevation
+    <Card classes='h-64 w-64' variant='elevation' />
+    With content
+    <Card classes='h-64 w-64' variant='elevation' >
+      this card have text
+    </Card>
+  </Story>
+</Canvas>
