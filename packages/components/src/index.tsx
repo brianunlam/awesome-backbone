@@ -1,3 +1,3 @@
-import '../tailwind';
+import '../tailwind.css';
 
 export * from './Card/Card';
