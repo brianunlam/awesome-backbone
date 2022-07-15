@@ -7,11 +7,14 @@ import external from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import swc from "rollup-plugin-swc";
 import filesize from "rollup-plugin-filesize";
+import scss from 'rollup-plugin-scss';
+import autoprefixer from 'autoprefixer'
+
 const packageJson = require("./package.json");
 
 export default [
     {
-        input: "./src/index.ts",
+        input: "./src/index.tsx",
         output: [
             {
                 file: packageJson.main,
@@ -26,12 +29,15 @@ export default [
             },
         ],
         plugins: [
-            babel({
-                // this is needed because we're using TypeScript
-                babelHelpers: "bundled",
-                extensions: [".ts", ".tsx"],
-            }),
-            external(),
+          babel({
+            // this is needed because we're using TypeScript
+            babelHelpers: "bundled",
+            extensions: [".ts", ".tsx"],
+          }),
+          scss({
+            processor: () => postcss([autoprefixer()]),
+          }),
+          external(),
             resolve(),
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
