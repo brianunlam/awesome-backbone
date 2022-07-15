@@ -7,7 +7,6 @@
 
 .review {
   background-color: #fff;
-  box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
   position: relative;
@@ -33,9 +32,8 @@
     margin-bottom: .4rem; }
   .review__user-date {
     font-size: 1rem;
-    color: var(--color-grey-dark-3); }
+  }
   .review__rating {
-    color: var(--color-primary);
     font-size: 2.2rem;
     font-weight: 300; }
   .review::before {
