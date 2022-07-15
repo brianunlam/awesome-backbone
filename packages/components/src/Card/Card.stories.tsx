@@ -7,7 +7,7 @@ export default {
   title: 'Atoms/Card',
   component: Card,
   argTypes: {
-    variant: { control: 'select' },
+    username: { control: 'select' },
   },
 } as Meta;
 
@@ -17,8 +17,12 @@ export const Default: Story<CardProps> = function (args) {
 };
 // Define default arguments for the Default story
 Default.args = {
-  variant: 'elevation',
-  classes: '',
+  username: 'Paco',
+  image:
+    'https://img.freepik.com/vector-gratis/pato-lindo-blanco_1308-41058.jpg',
+  rate: '8.1',
+  date: '16 Mar 2021',
+  review: 'A lot of text A lot of text A lot of text A lot of text',
 };
 
 // Second story
@@ -34,5 +38,4 @@ export const WithText: Story<CardProps> = function (args) {
 // Define default arguments for the WithText component and inherit arguments from Default component
 WithText.args = {
   ...Default.args,
-  classes: 'w-64 h-64 text-xl',
 };
