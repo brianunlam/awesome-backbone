@@ -7,7 +7,7 @@ export default {
   title: 'Atoms/Card',
   component: Card,
   argTypes: {
-    username: { control: 'select' },
+    username: { control: 'text' },
   },
 } as Meta;
 
