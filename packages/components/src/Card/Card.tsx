@@ -1,4 +1,3 @@
-import '../../tailwind.css';
 import '../css/style.comp.css';
 
 import React, { FC, HTMLAttributes } from 'react';
@@ -18,7 +17,7 @@ export const Card: FC<CardProps> = function ({
   review,
 }) {
   return (
-    <div className="user-reviews rounded-md  border-2 border-y-gray-400">
+    <div className="user-reviews rounded-md  border-2 border-y-gray-400 shadow-md shadow-black">
       <figure className="review">
         <blockquote className="review__text">{review}</blockquote>
         <figcaption className="review__user">
@@ -27,7 +26,7 @@ export const Card: FC<CardProps> = function ({
             <p className="review__user-name">{username}</p>
             <p className="review__user-date">{date}</p>
           </div>
-          <div className="review__rating">{rate}</div>
+          <div className="review__rating text-yellow-500">{rate}</div>
         </figcaption>
       </figure>
     </div>
